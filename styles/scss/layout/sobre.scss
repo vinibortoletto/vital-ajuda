@@ -1,0 +1,14 @@
+@include media(1000px) {
+  .sobre-section .content {
+    display: flex;
+
+    .text {
+      max-width: 50%;
+    }
+
+    img {
+      border-radius: 0.2rem;
+      border-bottom-right-radius: 5rem;
+    }
+  }
+}

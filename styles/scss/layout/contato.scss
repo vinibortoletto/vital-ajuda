@@ -1,0 +1,69 @@
+.form {
+  width: 100%;
+}
+.field {
+  margin-bottom: $m-sm !important;
+}
+.label {
+  font-size: $fz-sm;
+}
+.input,
+.textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid $c-black;
+  box-shadow: none;
+  border-radius: 0;
+
+  &:focus {
+    border-color: $c-black;
+  }
+  &:hover {
+    border-color: $c-black;
+  }
+}
+.textarea {
+  resize: none;
+}
+.control.has-icons-left .textarea {
+  padding-left: 2.5em;
+}
+.icon.mensagem {
+  padding-top: 0.5rem;
+}
+.buttons {
+  float: right;
+}
+.button.enviar {
+  border-radius: 10rem;
+  width: 8rem;
+  font-weight: bold;
+}
+.msg-erro {
+  display: none;
+}
+
+.social-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: $m-lg;
+}
+.social-info {
+  display: flex;
+  font-size: $fz-sm;
+
+  p.margin-right {
+    margin-right: $m-md;
+  }
+}
+.social-icons {
+  font-size: $fz-lg;
+}
+
+@include media(768px) {
+  .form {
+    width: 70%;
+    margin: auto;
+  }
+}

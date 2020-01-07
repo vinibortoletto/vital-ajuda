@@ -1,0 +1,43 @@
+#footer {
+  margin-top: $m-lg;
+  position: relative;
+  z-index: 10;
+
+  .navbar-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $fz-sm;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $c-black;
+    padding: 2rem 5vw;
+  }
+
+  a {
+    color: $c-black;
+
+    &:hover {
+      background: transparent;
+      color: black;
+    }
+  }
+
+  p,
+  p a {
+    color: $c-white;
+    font-size: $fz-sm;
+  }
+  p {
+    margin: 0;
+  }
+
+  img {
+    width: 1rem;
+    filter: invert(1);
+  }
+}

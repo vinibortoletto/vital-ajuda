@@ -1,0 +1,30 @@
+.pricing-table {
+  flex-direction: column;
+  align-items: center;
+}
+.pricing-plan {
+  box-shadow: 0 1px 3px rgba($c-black, 0.4);
+  width: 100%;
+}
+.plan-footer button {
+  font-weight: bold;
+}
+.plan-item {
+  background: transparent !important;
+  border-bottom: 1px solid rgba($c-black, 0.1) !important;
+
+  &:nth-last-child(1) {
+    border-bottom: none !important;
+  }
+}
+
+@include media(600px) {
+  .pricing-plan {
+    max-width: 15rem;
+  }
+}
+@include media(750px) {
+  .pricing-table {
+    flex-direction: row;
+  }
+}
