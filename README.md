@@ -1,17 +1,11 @@
-# Aplicativo de notas
+# Vital Ajuda
 
 ## Ferramentas usadas
 
-- React.js
-- Material UI
-- Firebase
+- HTML5
+- SASS
+- Bulma
+- JavaScript
 
-Live Preview: https://my-note-taking-app.netlify.com/
+Live Preview: https://vital-ajuda.netlify.com/
 
-## Instalação e uso
-
-Clone ou baixe o repositório. Abre o terminal, navegue até a pasta e excute o comando:
-
-```bash
-npm start
-```
