@@ -3,7 +3,8 @@ body {
 }
 
 .home-section {
-  background: $c-black url(./images/home/bg-home-sm.jpg) no-repeat right / cover;
+  background: $c-black url(../../images/home/bg-home-sm.jpg) no-repeat right /
+    cover;
   color: $c-white;
 }
 .home-title {
@@ -22,7 +23,7 @@ body {
 
 @include media(768px) {
   .home-section {
-    background: $c-black url(./images/home/bg-home-md.jpg) right / cover;
+    background: $c-black url(../../images/home/bg-home-md.jpg) right / cover;
   }
   .home-title {
     width: 20rem;
@@ -33,7 +34,7 @@ body {
 }
 @include media(1024px) {
   .home-section {
-    background: $c-black url(./images/home/bg-home-lg.jpg) right / cover;
+    background: $c-black url(../../images/home/bg-home-lg.jpg) right / cover;
   }
   .home-text {
     max-width: 40rem;
