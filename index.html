@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vital Ajuda | Home</title>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand|Sofia&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bulma -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="/node_modules/bulma-pricingtable/dist/css/bulma-pricingtable.min.css"
+    />
+    <link rel="stylesheet" href="/styles/css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav id="navbar" class="navbar navbar-home" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html" aria-label="link para home">
+            <img src="/images/icons/navbar-logo.svg" />
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger burger"
+            id="burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div class="navbar-menu" id="navbar-menu">
+          <div class="navbar-end">
+            <a href="#home" class="navbar-item">
+              home
+            </a>
+            <div class="link-divider hidden-link"></div>
+
+            <!-- Dropdown -->
+            <div id="dropdown" class="navbar-item has-dropdown is-hoverable">
+              <a href="#servicos" class="navbar-link">
+                serviços
+              </a>
+
+              <div class="navbar-dropdown">
+                <a href="#servicos" class="navbar-item">
+                  nossos serviços
+                </a>
+                <a href="#planos" class="navbar-item">
+                  nossos planos
+                </a>
+
+                <hr class="navbar-divider" />
+                <a href="#contato" class="navbar-item">
+                  saiba mais
+                </a>
+              </div>
+            </div>
+
+            <a href="#servicos" class="navbar-item servicos-link hidden-link ">
+              serviços
+            </a>
+            <div class="link-divider hidden-link"></div>
+            <a href="#servicos" class="navbar-item servicos-link hidden-link">
+              nossos serviços
+            </a>
+            <div class="link-divider hidden-link"></div>
+            <a href="#planos" class="navbar-item servicos-link hidden-link">
+              nossos planos
+            </a>
+            <div class="link-divider hidden-link"></div>
+            <a href="#contato" class="navbar-item servicos-link hidden-link">
+              saiba mais
+            </a>
+            <div class="link-divider hidden-link"></div>
+
+            <a href="#sobre" class="navbar-item">
+              sobre
+            </a>
+            <div class="link-divider hidden-link"></div>
+
+            <a href="#contato" class="navbar-item">
+              contato
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home -->
+      <section id="home" class="hero home-section is-fullheight">
+        <div class="container" aria-label="logo de vital ajuda">
+          <!-- Title and Logo -->
+          <div class="container home-title">
+            <figure class="image">
+              <img
+                src="/images/home/home-title.svg"
+                alt="logo de vital ajuda"
+              />
+            </figure>
+          </div>
+
+          <!-- Separator line -->
+          <div class="container separator">
+            <figure class="image">
+              <img src="/images/home/separator.svg" alt="separador" />
+            </figure>
+          </div>
+
+          <!-- Text -->
+          <div class="container home-text has-text-justified">
+            <p>
+              Serviço personalizado, maior produtividade e a ajuda especializada
+              que você merece!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Serviços -->
+      <section id="servicos" class="section container servicos-section">
+        <div class="title-section">
+          <div class="title-line"></div>
+          <div class="title-line bigger"></div>
+          <h1 class="title">nossos serviços</h1>
+        </div>
+
+        <div class="section container text-section">
+          <p>
+            Você não gostaria de ter mais tempo para se dedicar ao que é
+            realmente importante na sua vida? Pensando nisso, a Vital Ajuda vem
+            com a proposta de tomar conta daquilo que não precisa ser feito
+            necessariamente por você.
+          </p>
+          <p>
+            ​Precisa comprar uma passagem? Reservar um hotel? Nunca tem tempo
+            para o presente de pessoas próximas? Transferir as milhas para o
+            cartão? Deixa que a gente te ajuda!
+          </p>
+        </div>
+
+        <div class="section container">
+          <div class="columns">
+            <div class="column">
+              <div class="notification">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large">
+                      <i class="fas fa-suitcase-rolling servicos-icon"></i>
+                    </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        Organização de viagens profissionais e pessoais
+                        (nacionais e internacionais).
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="column">
+              <div class="notification">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large">
+                      <i class="fas fa-edit servicos-icon"></i>
+                    </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        Organização de viagens profissionais e pessoais
+                        (nacionais e internacionais).
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="column">
+              <div class="notification">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large">
+                      <i class="fas fa-gift servicos-icon"></i>
+                    </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        Lembrete de aniversário de pessoas próximas (envio de
+                        presente)
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <div class="notification">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large">
+                      <i class="fas fa-file-alt servicos-icon"></i>
+                    </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        Produção e Revisão de documentos / aulas / diagramação
+                        de slides
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="column">
+              <div class="notification">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large">
+                      <i class="fas fa-plane servicos-icon"></i>
+                    </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        Conferência de programas de milhagem
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="column">
+              <div class="notification">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large">
+                      <i class="fas fa-thumbs-up servicos-icon"></i>
+                    </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        Propagação do nome em mídias sociais
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <div class="notification">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large">
+                      <i
+                        class="fas fa-phone servicos-icon"
+                        style="transform: scaleX(-1);"
+                      ></i>
+                    </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        Transferência de chamadas
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="column">
+              <div class="notification">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large">
+                      <i class="fas fa-hand-holding-usd servicos-icon"></i>
+                    </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        Realização de orçamentos (pessoais e profissionais)
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="column">
+              <div class="notification">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large">
+                      <i class="fas fa-calendar-minus servicos-icon"></i>
+                    </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        Organização de recepções e eventos
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <div class="notification">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large">
+                      <i class="fas fa-address-book servicos-icon"></i>
+                    </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        Agenda on-line compartilhada
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="column">
+              <div class="notification">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large">
+                      <i class="fas fa-shopping-cart servicos-icon"></i>
+                    </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        Compras de produtos em geral
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="column">
+              <div class="notification">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large">
+                      <i class="fas fa-handshake servicos-icon"></i>
+                    </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        Reuniões presenciais periódicas
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <div class="notification no-border">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large">
+                      <i class="fas fa-search-dollar servicos-icon"></i>
+                    </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        Confecção de relatório de reembolso
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div class="columns"></div>
+        </div>
+      </section>
+
+      <!-- Planos -->
+      <section id="planos" class="section container planos-section">
+        <!-- Title -->
+        <div class="title-section">
+          <div class="title-line"></div>
+          <div class="title-line bigger"></div>
+          <h1 class="title">nossos planos</h1>
+        </div>
+
+        <!-- Cards -->
+        <div class="section container cards-section">
+          <div class="pricing-table">
+            <div class="pricing-plan is-primary">
+              <div class="plan-header">Básico</div>
+              <div class="plan-price">
+                <span class="plan-price-amount"
+                  ><span class="plan-price-currency">R$</span>250</span
+                >/mês
+              </div>
+              <div class="plan-items">
+                <div class="plan-item">5 horas mensais</div>
+                <div class="plan-item">Segunda à Sexta</div>
+                <div class="plan-item">1 reunião mensal</div>
+                <div class="plan-item"></div>
+              </div>
+              <div class="plan-footer">
+                <button
+                  class="button is-fullwidth"
+                  aria-label="escolher plano básico"
+                >
+                  Escolher
+                </button>
+              </div>
+            </div>
+
+            <div class="pricing-plan is-info">
+              <div class="plan-header">Sossego</div>
+              <div class="plan-price">
+                <span class="plan-price-amount"
+                  ><span class="plan-price-currency">R$</span>450</span
+                >/mês
+              </div>
+              <div class="plan-items">
+                <div class="plan-item">10 horas mensais</div>
+                <div class="plan-item">Segunda à Sexta</div>
+                <div class="plan-item">1 reunião mensal</div>
+                <div class="plan-item"></div>
+              </div>
+              <div class="plan-footer">
+                <button
+                  class="button is-fullwidth"
+                  aria-label="escolher plano sossego"
+                >
+                  Escolher
+                </button>
+              </div>
+            </div>
+
+            <div class="pricing-plan is-link">
+              <div class="plan-header">Tranquilidade</div>
+              <div class="plan-price">
+                <span class="plan-price-amount"
+                  ><span class="plan-price-currency">R$</span>800</span
+                >/mês
+              </div>
+              <div class="plan-items">
+                <div class="plan-item">20 horas mensais</div>
+                <div class="plan-item">Segunda à Sexta</div>
+                <div class="plan-item">2 reunião mensal</div>
+                <div class="plan-item"></div>
+              </div>
+              <div class="plan-footer">
+                <button
+                  class="button is-fullwidth"
+                  aria-label="escolher plano tranquilidade"
+                >
+                  Escolher
+                </button>
+              </div>
+            </div>
+
+            <div class="pricing-plan is-danger">
+              <div class="plan-header">Liberdade</div>
+              <div class="plan-price">
+                <span class="plan-price-amount"
+                  ><span class="plan-price-currency">R$</span>1400</span
+                >/mês
+              </div>
+              <div class="plan-items">
+                <div class="plan-item">40 horas mensais</div>
+                <div class="plan-item">Segunda à Sexta</div>
+                <div class="plan-item">4 reunião mensal</div>
+                <div class="plan-item"></div>
+              </div>
+              <div class="plan-footer">
+                <button
+                  class="button is-fullwidth"
+                  aria-label="escolher plano liberdade"
+                >
+                  Escolher
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sobre -->
+      <section id="sobre" class="section container sobre-section">
+        <!-- Title -->
+        <div class="title-section">
+          <div class="title-line"></div>
+          <div class="title-line bigger"></div>
+          <h1 class="title">quem somos</h1>
+        </div>
+
+        <div class="content">
+          <!-- Text -->
+          <div class="section text">
+            <p>
+              Meu nome é Sara Vital e sou formada em Letras pela Universidade
+              Federal de São Carlos (UFSCar) desde 2011.
+            </p>
+            <p>
+              A Vital Ajuda foi um dos frutos que obtive trabalhando durante
+              pouco mais de quatro anos no maior centro de treinamento em
+              cirurgia minimamente invasiva da América Latina, o Ircad,
+              instituto francês localizado em Barretos. Lá convivi com médicos
+              cirurgiões renomados de todo o mundo, quando pude perceber o
+              quanto a agenda de um profissional pode ser intensa, com viagens,
+              aulas, palestras, congressos, reuniões. Isso me fez enxergar ainda
+              mais a importância do papel da secretária, que com eficiência e
+              rapidez permite que o profissional possa focar seus esforços no
+              trabalho que efetivamente depende dele e delegue para sua
+              assistente todas as outras atividades burocráticas e demoradas que
+              precisam ser feitas durante o dia.
+            </p>
+          </div>
+
+          <!-- Image -->
+          <div class="section">
+            <figure class="image">
+              <img
+                srcset="
+                  /images/sobre/profile-sobre-md.jpg  768w,
+                  /images/sobre/profile-sobre-lg.jpg 1024w
+                "
+                src="/images/sobre/profile-sobre-sm.jpg"
+                alt="mulher sentada usando um notebook"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contato -->
+      <section id="contato" class="section container contato-section">
+        <!-- Title -->
+        <div class="title-section">
+          <div class="title-line"></div>
+          <div class="title-line bigger"></div>
+          <h1 class="title">entre em contato</h1>
+        </div>
+
+        <!-- Form -->
+        <div class="content">
+          <form id="form" class="form section">
+            <!-- Nome -->
+            <div class="field">
+              <label class="label">nome:</label>
+              <div class="control has-icons-left">
+                <input
+                  id="nome"
+                  class="input"
+                  type="text"
+                  placeholder="Seu Nome"
+                />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
+              </div>
+              <p class="help is-danger msg-erro" id="nome-erro"></p>
+            </div>
+
+            <!-- Email -->
+            <div class="field">
+              <label class="label">email:</label>
+              <div class="control has-icons-left">
+                <input
+                  id="email"
+                  class="input"
+                  type="text"
+                  placeholder="seuemail@exemplo.com"
+                />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+              <p class="help is-danger msg-erro" id="email-erro"></p>
+            </div>
+
+            <!-- Fixo -->
+            <div class="field">
+              <label class="label">telefone fixo:</label>
+              <div class="control has-icons-left">
+                <input
+                  id="fixo"
+                  class="input"
+                  type="text"
+                  placeholder="(19) 0000-0000"
+                  aria-label="digite seu telefone fixo"
+                />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-phone" style="transform: scaleX(-1);"></i>
+                </span>
+              </div>
+              <p class="help is-danger msg-erro" id="fixo-erro"></p>
+            </div>
+
+            <!-- Celular -->
+            <div class="field">
+              <label class="label">celular:</label>
+              <div class="control has-icons-left">
+                <input
+                  id="celular"
+                  class="input"
+                  type="text"
+                  placeholder="(19) 0 0000-0000"
+                  aria-label="digite seu telefone celular"
+                />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-mobile-alt"></i>
+                </span>
+              </div>
+              <p class="help is-danger msg-erro" id="celular-erro"></p>
+            </div>
+
+            <!-- Assunto -->
+            <div class="field">
+              <label class="label">assunto:</label>
+              <div class="control has-icons-left">
+                <input
+                  id="assunto"
+                  class="input"
+                  type="text"
+                  placeholder="Assunto"
+                />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-list-ul"></i>
+                </span>
+              </div>
+            </div>
+
+            <!-- Mensagem -->
+            <div class="field">
+              <label class="label">mensagem</label>
+              <div class="control has-icons-left">
+                <textarea
+                  id="mensagem"
+                  class="textarea"
+                  placeholder="Mensagem"
+                ></textarea>
+                <span class="icon mensagem is-small is-left">
+                  <i class="fas fa-comment-alt"></i>
+                </span>
+              </div>
+              <p class="help is-danger msg-erro" id="mensagem-erro"></p>
+            </div>
+
+            <!-- Buttons -->
+            <div class="field buttons is-grouped">
+              <div class="control">
+                <button id="cancelar-btn" class="button is-light">
+                  Cancelar
+                </button>
+              </div>
+              <div class="control">
+                <button id="enviar-btn" class="button enviar is-dark">
+                  Enviar
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Social -->
+        <section class="section social-section">
+          <div class="social-info">
+            <p class="margin-right">
+              <strong>Email:</strong> contato@vitalajuda.com.br
+            </p>
+            <p><strong>Telefone:</strong> +55 (16) 9 8114 - 8525</p>
+          </div>
+
+          <div>
+            <a aria-label="link para página de facebook">
+                <span>
+                  <i class="social-icons fab fa-facebook-square"></i>
+                </span>
+            </a>
+
+            <a>
+              <span>
+                <i class="social-icons fab fa-twitter-square"></i>
+              </span>
+            </a>
+
+            <a>
+              <span>
+                <i class="social-icons fab fa-linkedin"></i>
+              </span>
+            </a>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <nav class="footer-navbar">
+        <div class="navbar-menu">
+          <a href="#home" class="navbar-item">home</a>
+          <span>|</span>
+          <a href="#servicos" class="navbar-item">serviços</a>
+          <span>|</span>
+          <a href="#planos" class="navbar-item">planos</a>
+          <span>|</span>
+          <a href="#sobre" class="navbar-item">sobre</a>
+          <span>|</span>
+          <a href="#contato" class="navbar-item">contato</a>
+        </div>
+      </nav>
+
+      <div class="content has-text-centered">
+        <p>
+          Criado por
+          <strong>
+            <a href="vinicius-bortoletto.netlify.com">
+              Vinicius Bortoletto
+            </a>
+          </strong>
+        </p>
+
+        <a href="vinicius-bortoletto.netlify.com">
+          <img
+            src="/images/icons/vini-logo.svg"
+            alt="vinicius bortoletto logo"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/scripts/valida-formulario/jquery.mask.min.js"></script>
+
+    <!-- Valida Form -->
+    <script src="/scripts/valida-formulario/validaNome.js"></script>
+    <script src="/scripts/valida-formulario/validaEmail.js"></script>
+    <script src="/scripts/valida-formulario/validaTelefone.js"></script>
+    <script src="/scripts/valida-formulario/validaMensagem.js"></script>
+
+    <script src="/scripts/valida-formulario/validaForm.js"></script>
+
+    <!-- Others -->
+    <script src="/scripts/toggleMenu.js"></script>
+    <script src="/scripts/toggleNavbar.js"></script>
+  </body>
+</html>

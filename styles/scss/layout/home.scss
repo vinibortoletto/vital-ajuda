@@ -1,0 +1,41 @@
+body {
+  overflow: hidden;
+}
+
+.home-section {
+  background: $c-black url(/images/home/bg-home-sm.jpg) no-repeat right / cover;
+  color: $c-white;
+}
+.home-title {
+  margin-top: 150px;
+  width: 15rem;
+}
+.separator {
+  width: 11rem;
+  margin-top: $m-md;
+  margin-bottom: $m-sm;
+}
+.home-text {
+  max-width: 25rem;
+  margin-bottom: $m-lg;
+}
+
+@include media(768px) {
+  .home-section {
+    background: $c-black url(/images/home/bg-home-md.jpg) right / cover;
+  }
+  .home-title {
+    width: 20rem;
+  }
+  .separator {
+    width: 13rem;
+  }
+}
+@include media(1024px) {
+  .home-section {
+    background: $c-black url(/images/home/bg-home-lg.jpg) right / cover;
+  }
+  .home-text {
+    max-width: 40rem;
+  }
+}
