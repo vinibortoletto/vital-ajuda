@@ -2,13 +2,15 @@
 <h4 align="center">
   <img height="150px" alt="vital ajuda's logo" src="https://i.imgur.com/23oAR3o.png" />
   <br /><br />
-  Vinicius Bortoletto's Programming Portfolio 
+  Personal assistant service
 </h4>
 
 <hr />
 
 <p align="center">
+  <a href="https://vital-ajuda.netlify.app/">
     <img alt="website mockup" src="https://i.imgur.com/PQZcr0d.png" />    
+  </a>
 </p>
 
 <p align="center">
