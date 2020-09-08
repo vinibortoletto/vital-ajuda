@@ -1,12 +1,11 @@
-<h1 align="center">
-    <img height="150px" alt="vital ajuda's logo" src="https://i.imgur.com/23oAR3o.png" />
-    <br>
-    Vital Ajuda
-</h1>
 
 <h4 align="center">
+  <img height="150px" alt="vital ajuda's logo" src="https://i.imgur.com/23oAR3o.png" />
+  <br /><br />
   Vinicius Bortoletto's Programming Portfolio 
 </h4>
+
+<hr />
 
 <p align="center">
     <img alt="website mockup" src="https://i.imgur.com/PQZcr0d.png" />    
