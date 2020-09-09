@@ -33,17 +33,17 @@ This project was developed with the following technologies:
 
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com). From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com),  [VS Code](https://code.visualstudio.com/) + VSCode extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). From your command line:
 
 ```bash
 # Clone this repository
 $ git clone https://github.com/vinibortoletto/portfolio.git
 
-# Go into the repository
-$ cd vital-ajuda
+# Open in VSCode
+$ code vital-ajuda
 
 # Start application
-$ open index.html
+$ alt + l, alt + o
 
 ```
 
